@@ -1,4 +1,4 @@
-package PhotonDemo_Framework.com.photon.framework;
+package FrameworkDemo.DemoV1;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

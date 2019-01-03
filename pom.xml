@@ -2,30 +2,14 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>PhotonDemo_Framework</groupId>
-	<artifactId>com.photon.framework</artifactId>
+	<groupId>FrameworkDemo</groupId>
+	<artifactId>DemoV1</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>com.photon.framework</name>
+	<name>DemoV1</name>
 	<url>http://maven.apache.org</url>
-	 <build>
-     <plugins>
-        <plugin>
-            <groupId>com.lazerycode.jmeter</groupId>
-            <artifactId>jmeter-maven-plugin</artifactId>
-            <version>2.1.0</version>
-            <executions>
-                <execution>
-                    <id>jmeter-tests</id>
-                    <goals>
-                        <goal>jmeter</goal>
-                    </goals>
-                </execution>
-            </executions>
-        </plugin>
-    </plugins>
-</build>
+
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
@@ -38,4 +22,24 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>com.lazerycode.jmeter</groupId>
+				<artifactId>jmeter-maven-plugin</artifactId>
+				<version>2.1.0</version>
+				<executions>
+					<execution>
+						<id>jmeter-tests</id>
+						<goals>
+							<goal>jmeter</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+					<resultsFileFormat>csv</resultsFileFormat>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
 </project>

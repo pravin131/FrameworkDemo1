@@ -1,4 +1,4 @@
-package PhotonDemo_Framework.com.photon.framework;
+package FrameworkDemo.DemoV1;
 
 /**
  * Hello world!
