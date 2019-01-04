@@ -12,6 +12,7 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<my.host>localhost</my.host>
 	</properties>
 
 	<dependencies>
@@ -22,6 +23,7 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+
 	<build>
 		<plugins>
 			<plugin>
@@ -31,12 +33,16 @@
 				<executions>
 					<execution>
 						<id>jmeter-tests</id>
+						<phase>verify</phase>
 						<goals>
 							<goal>jmeter</goal>
 						</goals>
 					</execution>
 				</executions>
 				<configuration>
+					<propertiesUser>
+						<URL>${my.host}</URL>
+					</propertiesUser>
 					<resultsFileFormat>csv</resultsFileFormat>
 				</configuration>
 			</plugin>
