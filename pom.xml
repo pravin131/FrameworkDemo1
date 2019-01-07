@@ -12,7 +12,9 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<my.host>localhost</my.host>
+		<host>localhost</host>
+		<dataSheet>csv</dataSheet>
+		<API.Key>key</API.Key>
 	</properties>
 
 	<dependencies>
@@ -41,8 +43,11 @@
 				</executions>
 				<configuration>
 					<propertiesUser>
-						<URL>${my.host}</URL>
+						 <hostName>${host}</hostName>
+						 <CSV>${dataSheet}</CSV>
+						 <APPID>${API.Key}</APPID>
 					</propertiesUser>
+					 <testResultsTimestamp>false</testResultsTimestamp>
 					<resultsFileFormat>csv</resultsFileFormat>
 				</configuration>
 			</plugin>
