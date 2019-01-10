@@ -12,9 +12,7 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<host>localhost</host>
-		<dataSheet>csv</dataSheet>
-		<API.Key>key</API.Key>
+		<ENVY>localhost</ENVY>
 	</properties>
 
 	<dependencies>
@@ -43,9 +41,7 @@
 				</executions>
 				<configuration>
 					<propertiesUser>
-						 <hostName>${host}</hostName>
-						 <CSV>${dataSheet}</CSV>
-						 <APPID>${API.Key}</APPID>
+						 <environment>${ENVY}</environment>
 					</propertiesUser>
 					 <testResultsTimestamp>false</testResultsTimestamp>
 					<resultsFileFormat>csv</resultsFileFormat>
