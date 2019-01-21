@@ -1,2 +1,4 @@
 URL,AppID,Type,EffectiveDate,Address,City,State,Zip,Country,AccountName,Comments
-10.100.201.11,a7e5f9ed11745699ac457b87a11d34a6,Work,12/10/2018,"474 South Court Ballston Spa, NY 12020",NYCity,Kingston,12020,United states of America,Smith,Creating an address for smith
+STAGING,a7e5f9ed11745699ac457b87a11d34a6,Home,11/1/2019,472 South Court Ballston Spa,NY,NewYork,10010,United states of America,Smith,Creating an address for smith
+STAGING,a8e5f9ed11745699ac457b87a11d34a6,Other,10/3/2019,235 North Highway Drive,Plano,Texas,75039,United states of America,Robert,Creating an address for Robert
+STAGING,a0ie5f9ed11745699ac457b87a11d34a6,Work,11/6/2018,10 Kingswood Drive,Orlando,Florida,12020,United states of America,Mike,Creating an address for Mike
