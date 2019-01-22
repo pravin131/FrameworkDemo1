@@ -1,2 +1,2 @@
-URL,AppID,Type,EffectiveDate,Address,City,State,Zip,Country,AccountName,Comments,Jira Exec ID,TC ID 1,TC ID 2,TC ID 3,TC ID 4,TC ID 5,TC ID 6,TC ID 7,TC ID 8,TC ID 9,TC ID 10
+URL,AppID,Type,EffectiveDate,Address,City,State,Zip,Country,AccountName,Comments,,,,,,,,,,,
 10.100.201.11,a7e5f9ed11745699ac457b87a11d34a6,Home,11/1/2019,472 South Court Ballston Spa,NY,NewYork,10010,United states of America,Smith,Creating an address for smith,PU-18,11,12,13,14,15,16,17,18,19,20

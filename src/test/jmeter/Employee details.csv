@@ -1,0 +1,11 @@
+Title query,Title value,Date query,Date value
+$.Employees[0].jobTitleName,Developer,$.Employees[0].dateOfJoining,^(0?[1-9]|1[0-2])/(0?[1-9]|1[0-9]|2[0-9]|3[01])/\d{4}$
+$.Employees[1].jobTitleName,Developer,$.Employees[1].dateOfJoining,^(0?[1-9]|1[0-2])/(0?[1-9]|1[0-9]|2[0-9]|3[01])/\d{4}$
+$.Employees[2].jobTitleName,QA,$.Employees[2].dateOfJoining,^(0?[1-9]|1[0-2])/(0?[1-9]|1[0-9]|2[0-9]|3[01])/\d{4}$
+$.Employees[3].jobTitleName,QA,$.Employees[3].dateOfJoining,^(0?[1-9]|1[0-2])/(0?[1-9]|1[0-9]|2[0-9]|3[01])/\d{4}$
+$.Employees[4].jobTitleName,QA,$.Employees[4].dateOfJoining,^(0?[1-9]|1[0-2])/(0?[1-9]|1[0-9]|2[0-9]|3[01])/\d{4}$
+$.Employees[5].jobTitleName,Developer,$.Employees[5].dateOfJoining,^(0?[1-9]|1[0-2])/(0?[1-9]|1[0-9]|2[0-9]|3[01])/\d{4}$
+$.Employees[6].jobTitleName,Developer,$.Employees[6].dateOfJoining,^(0?[1-9]|1[0-2])/(0?[1-9]|1[0-9]|2[0-9]|3[01])/\d{4}$
+$.Employees[7].jobTitleName,Admin,$.Employees[7].dateOfJoining,^(0?[1-9]|1[0-2])/(0?[1-9]|1[0-9]|2[0-9]|3[01])/\d{4}$
+$.Employees[8].jobTitleName,Program Directory,$.Employees[8].dateOfJoining,^(0?[1-9]|1[0-2])/(0?[1-9]|1[0-9]|2[0-9]|3[01])/\d{4}$
+$.Employees[9].jobTitleName,Program Directory,$.Employees[9].dateOfJoining,^(0?[1-9]|1[0-2])/(0?[1-9]|1[0-9]|2[0-9]|3[01])/\d{4}$
